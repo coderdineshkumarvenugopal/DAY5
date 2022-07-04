@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(./assests/ground\ cricket.webp);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+#image{
+    height: 80vh;
+    width: 80vw;
+    padding-top: 10vh;
+    padding-left: 10vw;   
+    position: absolute;
+}
+#hari{
+    display: flex;
+    color: rgb(255, 0, 0);
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    padding-left: 20vw;
+    padding-top: 18vh;
+    font-family: 'Finlandica', sans-serif;
+    font-size: 1.6em;
+}
+#heading1{
+    background: linear-gradient(to left,
+                    violet,
+                    indigo,
+                    blue,
+                    green,
+                    yellow,
+                    orange,
+                    red);
+            -webkit-background-clip: text;
+            color: transparent;
+}
+#heading2{
+    background: linear-gradient(to left,
+                    violet,
+                    indigo,
+                    blue,
+                    green,
+                    yellow,
+                    orange,
+                    red);
+            -webkit-background-clip: text;
+            color: transparent;
+}
+#batsmanList{
+    color: yellow;
+    
+   
+    }
+    #batsmanList a{
+        text-decoration: none;
+        color: yellow;
+    }
+    #runScored{
+        color: rgb(0, 255, 76);
+
+    }
+    #ballFaced{
+        color: rgb(252, 0, 0);
+
+    }
+    #noOfFours{
+        color: rgb(252, 139, 0);
+
+    }
+    #noOfSixes{
+        color: rgb(255, 255, 255);
+
+    }
+    #strikeRate{
+        color: rgb(225, 0, 255);
+
+    }
+    
+
+table, th, td {
+    border: 0.5px solid rgb(8, 0, 255);
+    padding-top: 0.5vh;
+    padding-left: 0.2vw;
+    padding-right: 0.2vw;
+    padding-bottom: 0.5vh;
+
+  }
